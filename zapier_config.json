@@ -1,0 +1,14 @@
+{
+  "zapier_integration": {
+    "boothbook_webhook": "https://hooks.zapier.com/hooks/catch/123456/boothbook",
+    "google_sheets_webhook": "https://hooks.zapier.com/hooks/catch/123456/googlesheets",
+    "trigger_event": "new_inquiry",
+    "actions": [
+      {
+        "action": "create_spreadsheet_row",
+        "spreadsheet_id": "your_google_sheet_id",
+        "worksheet_name": "Inquiries"
+      }
+    ]
+  }
+}
